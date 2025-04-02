@@ -20,10 +20,10 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Hassan Shahzad",
+  title: "Hi all, I'm Hassan",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Full Stack Software Developer 🚀 having an experience of building Progressive Web applications with JavaScript / Reactjs / Nodejs / Python and some other cool libraries and frameworks."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -33,13 +33,10 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/HassanRajpoot",
+  linkedin: "https://www.linkedin.com/in/hassan-s-1998261b1/",
+  gmail: "hassanshahzad1908@gmail.com",
+  medium: "https://medium.com/@hassan-shahzad1908",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -89,10 +86,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
@@ -115,7 +108,19 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
-    }
+    },
+    {
+      skillName: "TypeScript",
+      fontAwesomeClassname: "fab fa-js"
+    },
+    {
+      skillName: "FastAPI",
+      fontAwesomeClassname: "fas fa-bolt"
+    },
+    {
+      skillName: "Django",
+      fontAwesomeClassname: "fas fa-leaf"
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -126,23 +131,11 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
+      schoolName: "Comsats University",
+      logo: require("./assets/images/download (1).jpg"),
       subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      duration: "February 201 - February 2023",
+      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems etc",
     }
   ]
 };
@@ -154,15 +147,15 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      progressPercentage: "70%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "90%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "75%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -174,29 +167,19 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      role: "Software Engineer I",
+      company: "NETSOL Technologies",
+      companylogo: require("./assets/images/netsol_tech_pakistan_logo.jpg"),
+      date: "June 2023 – Present",
+      desc: "I specialize in developing micro front-end and micro services-based SaaS applications using latest technologies, handling the full development lifecycle. Notably, I worked on BMW' US, developing Lane, an end-to-end order management system for asset leasing and credit companies, including third-party integrations and custom backend packages. Currently, I am a Full Stack Developer on AppexNow, the world’s first API-first marketplace for digital products, focusing on innovative and scalable solutions.",
+      descBullets: []
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Asspciate Software Engineer",
+      company: "Hassol",
+      companylogo: require("./assets/images/1724766243197.jpg"),
+      date: "Oct 2022 – June 2023",
+      desc: "Developed and maintained ERP solutions using React.js for frontend and Python for backend. Built RESTful APIs, optimized databases, and integrated third-party services for seamless functionality"
     }
   ]
 };
@@ -206,7 +189,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -216,25 +199,58 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/Screenshot 2025-04-02 180130.png"),
+      projectName: "Appexnow",
+      projectDesc: "At AppexNow, I worked on a custom UI kit and backend package, contributing to both frontend and backend development. I designed reusable and responsive UI components while building scalable backend solutions using a micro services architecture. My work enhanced product customization, flexibility, and seamless integration across the platform.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://www.appexnow.com/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/17d78fa5f4eaDrift.png"),
+      projectName: "Drift(Customer Portal)",
+      projectDesc: "I built the Drift portal, a versatile customer portal designed for OEMs and dealers, delivering exceptional Omni channel customer experiences and enhancing direct-to-consumer strategies to drive sales growth.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://www.appexnow.com/drift"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/3d4bf6Dealex.png"),
+      projectName: "Lane(Dealer Portal)",
+      projectDesc: "At Lane I worked on an order management system for OEMs, I handled both frontend and backend development, creating responsive interfaces and ensuring robust server-side functionality. I also optimized components for peak performance across devices and browsers.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://www.appexnow.com/lane"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/cropped-Untitled-1-1.png"),
+      projectName: "One Packages",
+      projectDesc: "This site is completly develop on wordpress for the client to help them build a portfolio site for their bussiness",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://onepackages.com/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/Sam-Traders-Black-2.png"),
+      projectName: "Sam Trader",
+      projectDesc: "This site is completly develop on wordpress for the client to help them build a portfolio site for their bussiness and show their product need to the potential clients",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://sam-traders.com/"
         }
       ]
     }
@@ -252,51 +268,47 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Python course",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "Python And Django Framework For Beginners Complete Course",
+      image: require("./assets/images/udemy-transparent-logo-free-png.webp"),
+      imageAlt: "Udemy Logo",
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          url: "https://www.linkedin.com/in/hassan-s-1998261b1/overlay/1730042521022/single-media-viewer?type=DOCUMENT&profileId=ACoAADFr-4UBXA9qmwWCQqKknULLEKMoFvYe1lY&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BWnhfDrxrSJmCDXvy0KyOIQ%3D%3D"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Web Design",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "Web Design for Everybody: Basics of Web Development & Coding Specialization",
+      image: require("./assets/images/images (1).png"),
+      imageAlt: "Coursera Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Certification",
+          url: "https://www.coursera.org/account/accomplishments/specialization/certificate/87RF7PPA33DW"
         }
       ]
     },
-
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "Graphic Design",
+      subtitle: "Graphic Design Specialization",
+      image: require("./assets/images/images (1).png"),
+      imageAlt: "Coursera Logo",
       footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
+        {name: "Certification", url: "https://www.coursera.org/account/accomplishments/specialization/certificate/2CS59HJX48JB"},
+      ]
+    },
+    {
+      title: "Web Application",
+      subtitle: "Web Applications for Everybody Specialization",
+      image: require("./assets/images/images (1).png"),
+      imageAlt: "Coursera Logo",
+      footerLink: [
+        {name: "Certification", url: "https://www.coursera.org/account/accomplishments/specialization/certificate/SLWHG7PXGB74"},
       ]
     }
   ],
@@ -324,7 +336,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -343,7 +355,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -372,8 +384,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+92-3390074745",
+  email_address: "hassanshahzad1908@gmail.com"
 };
 
 // Twitter Section
