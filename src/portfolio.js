@@ -120,7 +120,7 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "Django",
       fontAwesomeClassname: "fas fa-leaf"
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -135,7 +135,7 @@ const educationInfo = {
       logo: require("./assets/images/download (1).jpg"),
       subHeader: "Bachelor of Science in Computer Science",
       duration: "February 201 - February 2023",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems etc",
+      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems etc"
     }
   ]
 };
@@ -201,7 +201,8 @@ const bigProjects = {
     {
       image: require("./assets/images/Screenshot 2025-04-02 180130.png"),
       projectName: "Appexnow",
-      projectDesc: "At AppexNow, I worked on a custom UI kit and backend package, contributing to both frontend and backend development. I designed reusable and responsive UI components while building scalable backend solutions using a micro services architecture. My work enhanced product customization, flexibility, and seamless integration across the platform.",
+      projectDesc:
+        "At AppexNow, I worked on a custom UI kit and backend package, contributing to both frontend and backend development. I designed reusable and responsive UI components while building scalable backend solutions using a micro services architecture. My work enhanced product customization, flexibility, and seamless integration across the platform.",
       footerLink: [
         {
           name: "Visit Website",
@@ -213,7 +214,8 @@ const bigProjects = {
     {
       image: require("./assets/images/17d78fa5f4eaDrift.png"),
       projectName: "Drift(Customer Portal)",
-      projectDesc: "I built the Drift portal, a versatile customer portal designed for OEMs and dealers, delivering exceptional Omni channel customer experiences and enhancing direct-to-consumer strategies to drive sales growth.",
+      projectDesc:
+        "I built the Drift portal, a versatile customer portal designed for OEMs and dealers, delivering exceptional Omni channel customer experiences and enhancing direct-to-consumer strategies to drive sales growth.",
       footerLink: [
         {
           name: "Visit Website",
@@ -224,7 +226,8 @@ const bigProjects = {
     {
       image: require("./assets/images/3d4bf6Dealex.png"),
       projectName: "Lane(Dealer Portal)",
-      projectDesc: "At Lane I worked on an order management system for OEMs, I handled both frontend and backend development, creating responsive interfaces and ensuring robust server-side functionality. I also optimized components for peak performance across devices and browsers.",
+      projectDesc:
+        "At Lane I worked on an order management system for OEMs, I handled both frontend and backend development, creating responsive interfaces and ensuring robust server-side functionality. I also optimized components for peak performance across devices and browsers.",
       footerLink: [
         {
           name: "Visit Website",
@@ -235,7 +238,8 @@ const bigProjects = {
     {
       image: require("./assets/images/cropped-Untitled-1-1.png"),
       projectName: "One Packages",
-      projectDesc: "This site is completly develop on wordpress for the client to help them build a portfolio site for their bussiness",
+      projectDesc:
+        "This site is completly develop on wordpress for the client to help them build a portfolio site for their bussiness",
       footerLink: [
         {
           name: "Visit Website",
@@ -246,7 +250,8 @@ const bigProjects = {
     {
       image: require("./assets/images/Sam-Traders-Black-2.png"),
       projectName: "Sam Trader",
-      projectDesc: "This site is completly develop on wordpress for the client to help them build a portfolio site for their bussiness and show their product need to the potential clients",
+      projectDesc:
+        "This site is completly develop on wordpress for the client to help them build a portfolio site for their bussiness and show their product need to the potential clients",
       footerLink: [
         {
           name: "Visit Website",
@@ -269,8 +274,7 @@ const achievementSection = {
   achievementsCards: [
     {
       title: "Python course",
-      subtitle:
-        "Python And Django Framework For Beginners Complete Course",
+      subtitle: "Python And Django Framework For Beginners Complete Course",
       image: require("./assets/images/udemy-transparent-logo-free-png.webp"),
       imageAlt: "Udemy Logo",
       footerLink: [
@@ -299,7 +303,10 @@ const achievementSection = {
       image: require("./assets/images/images (1).png"),
       imageAlt: "Coursera Logo",
       footerLink: [
-        { name: "Certification", url: "https://www.coursera.org/account/accomplishments/specialization/certificate/2CS59HJX48JB" },
+        {
+          name: "Certification",
+          url: "https://www.coursera.org/account/accomplishments/specialization/certificate/2CS59HJX48JB"
+        }
       ]
     },
     {
@@ -308,7 +315,10 @@ const achievementSection = {
       image: require("./assets/images/images (1).png"),
       imageAlt: "Coursera Logo",
       footerLink: [
-        { name: "Certification", url: "https://www.coursera.org/account/accomplishments/specialization/certificate/SLWHG7PXGB74" },
+        {
+          name: "Certification",
+          url: "https://www.coursera.org/account/accomplishments/specialization/certificate/SLWHG7PXGB74"
+        }
       ]
     }
   ],
