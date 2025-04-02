@@ -299,7 +299,7 @@ const achievementSection = {
       image: require("./assets/images/images (1).png"),
       imageAlt: "Coursera Logo",
       footerLink: [
-        {name: "Certification", url: "https://www.coursera.org/account/accomplishments/specialization/certificate/2CS59HJX48JB"},
+        { name: "Certification", url: "https://www.coursera.org/account/accomplishments/specialization/certificate/2CS59HJX48JB" },
       ]
     },
     {
@@ -308,7 +308,7 @@ const achievementSection = {
       image: require("./assets/images/images (1).png"),
       imageAlt: "Coursera Logo",
       footerLink: [
-        {name: "Certification", url: "https://www.coursera.org/account/accomplishments/specialization/certificate/SLWHG7PXGB74"},
+        { name: "Certification", url: "https://www.coursera.org/account/accomplishments/specialization/certificate/SLWHG7PXGB74" },
       ]
     }
   ],
