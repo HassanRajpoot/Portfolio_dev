@@ -134,7 +134,7 @@ const educationInfo = {
       schoolName: "Comsats University",
       logo: require("./assets/images/download (1).jpg"),
       subHeader: "Bachelor of Science in Computer Science",
-      duration: "February 201 - February 2023",
+      duration: "February 2019 - February 2023",
       desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems etc"
     }
   ]
@@ -167,19 +167,27 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Software Engineer",
+      company: "Xeven Solution",
+      companylogo: require("./assets/images/xevensolutions_logo.jpeg"),
+      date: "May 2025 – Present",
+      desc: "I assisted in the design and development of scalable software solutions, emphasizing the creation of user-friendly and efficient applications. Working closely with team members, I contributed to the implementation of features and enhancements using Python. I actively engaged in peer code reviews to ensure adherence to best practices and support a culture of continuous improvement. Through this experience, I gained proficiency in managing production environments, understanding the impact of changes, and ensuring minimal disruption to end users. Additionally, I worked on training large language models (LLMs) and contributed to multiple AI projects.",
+      descBullets: []
+    },
+    {
       role: "Software Engineer I",
       company: "NETSOL Technologies",
       companylogo: require("./assets/images/netsol_tech_pakistan_logo.jpg"),
-      date: "June 2023 – Present",
+      date: "June 2023 – April 2025",
       desc: "I specialize in developing micro front-end and micro services-based SaaS applications using latest technologies, handling the full development lifecycle. Notably, I worked on BMW' US, developing Lane, an end-to-end order management system for asset leasing and credit companies, including third-party integrations and custom backend packages. Currently, I am a Full Stack Developer on AppexNow, the world’s first API-first marketplace for digital products, focusing on innovative and scalable solutions.",
       descBullets: []
     },
     {
       role: "Asspciate Software Engineer",
-      company: "Hassol",
-      companylogo: require("./assets/images/1724766243197.jpg"),
+      company: "Bizzclan",
+      companylogo: require("./assets/images/bizzclan_logo.jpeg"),
       date: "Oct 2022 – June 2023",
-      desc: "Developed and maintained ERP solutions using React.js for frontend and Python for backend. Built RESTful APIs, optimized databases, and integrated third-party services for seamless functionality"
+      desc: "I assisted in the design and development of scalable software solutions, with a focus on creating user-friendly and efficient applications. Collaborating closely with team members, I implemented various features and enhancements using React. Additionally, I actively participated in peer code reviews to ensure adherence to best practices and foster a culture of continuous learning."
     }
   ]
 };
