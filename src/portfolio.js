@@ -183,7 +183,7 @@ const workExperiences = {
       descBullets: []
     },
     {
-      role: "Asspciate Software Engineer",
+      role: "Associate Software Engineer",
       company: "Bizzclan",
       companylogo: require("./assets/images/bizzclan_logo.jpeg"),
       date: "Oct 2022 – June 2023",
