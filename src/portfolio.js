@@ -166,14 +166,14 @@ const techStack = {
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
-    {
-      role: "Software Engineer",
-      company: "Xeven Solution",
-      companylogo: require("./assets/images/xevensolutions_logo.jpeg"),
-      date: "May 2025 – Present",
-      desc: "I assisted in the design and development of scalable software solutions, emphasizing the creation of user-friendly and efficient applications. Working closely with team members, I contributed to the implementation of features and enhancements using Python. I actively engaged in peer code reviews to ensure adherence to best practices and support a culture of continuous improvement. Through this experience, I gained proficiency in managing production environments, understanding the impact of changes, and ensuring minimal disruption to end users. Additionally, I worked on training large language models (LLMs) and contributed to multiple AI projects.",
-      descBullets: []
-    },
+    // {
+    //   role: "Software Engineer",
+    //   company: "Xeven Solution",
+    //   companylogo: require("./assets/images/xevensolutions_logo.jpeg"),
+    //   date: "May 2025 – Present",
+    //   desc: "I assisted in the design and development of scalable software solutions, emphasizing the creation of user-friendly and efficient applications. Working closely with team members, I contributed to the implementation of features and enhancements using Python. I actively engaged in peer code reviews to ensure adherence to best practices and support a culture of continuous improvement. Through this experience, I gained proficiency in managing production environments, understanding the impact of changes, and ensuring minimal disruption to end users. Additionally, I worked on training large language models (LLMs) and contributed to multiple AI projects.",
+    //   descBullets: []
+    // },
     {
       role: "Software Engineer I",
       company: "NETSOL Technologies",
