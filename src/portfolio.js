@@ -46,7 +46,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
@@ -147,7 +147,7 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "70%" //Insert relative proficiency in percentage
+      progressPercentage: "80%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
@@ -155,7 +155,7 @@ const techStack = {
     },
     {
       Stack: "Programming",
-      progressPercentage: "75%"
+      progressPercentage: "85%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -166,28 +166,28 @@ const techStack = {
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
-    // {
-    //   role: "Software Engineer",
-    //   company: "Xeven Solution",
-    //   companylogo: require("./assets/images/xevensolutions_logo.jpeg"),
-    //   date: "May 2025 – Present",
-    //   desc: "I assisted in the design and development of scalable software solutions, emphasizing the creation of user-friendly and efficient applications. Working closely with team members, I contributed to the implementation of features and enhancements using Python. I actively engaged in peer code reviews to ensure adherence to best practices and support a culture of continuous improvement. Through this experience, I gained proficiency in managing production environments, understanding the impact of changes, and ensuring minimal disruption to end users. Additionally, I worked on training large language models (LLMs) and contributed to multiple AI projects.",
-    //   descBullets: []
-    // },
+    {
+      role: "Software Engineer",
+      company: "Xeven Solution",
+      companylogo: require("./assets/images/xevensolutions_logo.jpeg"),
+      date: "May 2025 – Present",
+      desc: "I led a team in the design and development of scalable software solutions, focusing on building user-friendly and efficient applications. In addition to overseeing project execution, I played a hands-on role in developing features and enhancements using Python. I spearheaded the development of a scalable agentic system with custom workflows, enabling robust automation and intelligent decision-making. I actively participated in and facilitated peer code reviews to uphold best practices and foster a culture of continuous improvement. My responsibilities also included managing production environments, evaluating the impact of changes, and ensuring minimal disruption to end users. Furthermore, I contributed to multiple AI initiatives, including the training of LLMs.",
+      descBullets: []
+    },
     {
       role: "Software Engineer I",
       company: "NETSOL Technologies",
       companylogo: require("./assets/images/netsol_tech_pakistan_logo.jpg"),
-      date: "June 2023 – April 2025",
-      desc: "I specialize in developing micro front-end and micro services-based SaaS applications using latest technologies, handling the full development lifecycle. Notably, I worked on BMW' US, developing Lane, an end-to-end order management system for asset leasing and credit companies, including third-party integrations and custom backend packages. Currently, I am a Full Stack Developer on AppexNow, the world’s first API-first marketplace for digital products, focusing on innovative and scalable solutions.",
+      date: "Sept 2023 – April 2025",
+      desc: "I specialize in developing micro front-end and microservices-based SaaS applications using the latest technologies, managing the entire software development lifecycle from design to deployment. Notably, I contributed to BMW US by developing Lane, an end-to-end order management system tailored for asset leasing and credit companies. This included implementing third-party integrations and building custom backend packages to support complex business workflows.Currently, I serve as a Full Stack Developer on AppexNow, the world’s first API-first marketplace for digital products, where I focus on delivering innovative, scalable solutions. I’ve also developed a tagging system similar to Google Analytics, enabling advanced tracking and insights across applications, and have built custom React packages to streamline UI development and promote component reuse across teams.",
       descBullets: []
     },
     {
       role: "Associate Software Engineer",
       company: "Bizzclan",
       companylogo: require("./assets/images/bizzclan_logo.jpeg"),
-      date: "Oct 2022 – June 2023",
-      desc: "I assisted in the design and development of scalable software solutions, with a focus on creating user-friendly and efficient applications. Collaborating closely with team members, I implemented various features and enhancements using React. Additionally, I actively participated in peer code reviews to ensure adherence to best practices and foster a culture of continuous learning."
+      date: "Jan 2023 – Sept 2023",
+      desc: "I assisted in the design and development of scalable software solutions, with a focus on creating user-friendly and efficient applications. Collaborating closely with team members, I implemented various features and enhancements using React. I also worked on real estate technology projects, contributing to platforms that streamline property management and user interactions. Additionally, I developed custom tracking systems to monitor user behavior and engagement across applications. I actively participated in peer code reviews to ensure adherence to best practices and foster a culture of continuous learning. I was involved in managing production environments, evaluating the impact of changes, and ensuring minimal disruption to end users.",
     }
   ]
 };
@@ -266,6 +266,18 @@ const bigProjects = {
           url: "https://sam-traders.com/"
         }
       ]
+    },
+    {
+      image: require("./assets/images/shahada Ai.png"),
+      projectName: "Shahada Ai",
+      projectDesc:
+        "I contributed to the development of MyShahada, a platform dedicated to supporting and educating new Muslims through accessible resources and guidance. As part of the development team, I implemented a fuzzy search feature to improve the user experience by allowing users to find relevant content even with typos or partial matches. Additionally, I optimized the performance of the backend model implementation, resulting in faster load times and more efficient data processing. These enhancements helped make the platform more responsive, user-friendly, and scalable.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://www.myshahada.net/"
+        }
+      ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -289,6 +301,18 @@ const achievementSection = {
         {
           name: "Certification",
           url: "https://www.linkedin.com/in/hassan-s-1998261b1/overlay/1730042521022/single-media-viewer?type=DOCUMENT&profileId=ACoAADFr-4UBXA9qmwWCQqKknULLEKMoFvYe1lY&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BWnhfDrxrSJmCDXvy0KyOIQ%3D%3D"
+        }
+      ]
+    },
+    {
+      title: "Django Advanced Mastery",
+      subtitle: "Job Ready - Django Advanced Mastery: Kafka, Celery, Redis, Elasticsearch & Beyond!",
+      image: require("./assets/images/codemastery.png"),
+      imageAlt: "Udemy Logo",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://www.linkedin.com/in/hassan-s-1998261b1/overlay/1749551884206/single-media-viewer/?profileId=ACoAADFr-4UBXA9qmwWCQqKknULLEKMoFvYe1lY"
         }
       ]
     },
