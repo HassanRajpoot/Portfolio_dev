@@ -269,7 +269,7 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/shahada Ai.png"),
-      projectName: "Shahada Ai",
+      projectName: "Sunnah Ai",
       projectDesc:
         "I contributed to the development of MyShahada, a platform dedicated to supporting and educating new Muslims through accessible resources and guidance. As part of the development team, I implemented a fuzzy search feature to improve the user experience by allowing users to find relevant content even with typos or partial matches. Additionally, I optimized the performance of the backend model implementation, resulting in faster load times and more efficient data processing. These enhancements helped make the platform more responsive, user-friendly, and scalable.",
       footerLink: [
